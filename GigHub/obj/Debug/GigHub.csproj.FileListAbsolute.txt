@@ -239,3 +239,5 @@ D:\Documents\Projects\GigHub\GigHub\obj\Debug\GigHub.csproj.CopyComplete
 D:\Documents\Projects\GigHub\GigHub\obj\Debug\GigHub.dll
 D:\Documents\Projects\GigHub\GigHub\obj\Debug\GigHub.pdb
 D:\Documents\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddIsCanceledToGig.resources
+D:\Documents\Projects\GigHub\GigHub\obj\Debug\GigHub.csprojAssemblyReference.cache
+D:\Documents\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddNotification.resources
