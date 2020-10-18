@@ -35,7 +35,7 @@ namespace GigHub.Controllers
             var userId = User.Identity.GetUserId();
 
             var gigs = _context.Attendance
-                .Where(a => a.AtendeeId == userId)
+                .Where(a => a.AttendeeId == userId)
                 .Select(a => a.Gig)
                 .Include(g => g.Artist)
                 .Include(g => g.Genre)
@@ -120,7 +120,9 @@ namespace GigHub.Controllers
             }
 
             var userid = User.Identity.GetUserId();
-            var gig = _context.Gigs.Single(g => g.Id == viewModel.Id && g.ArtistId == userid);
+            var gig = _context.Gigs
+                .Include(g => g.Attendances.Select(a => a.Attendee))
+                .Single(g => g.Id == viewModel.Id && g.ArtistId == userid);
 
             gig.Venue = viewModel.Venue;
             gig.DateTime = viewModel.GetDateTime();

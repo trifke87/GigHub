@@ -233,6 +233,10 @@
     <Compile Include="Migrations\202009261959530_AddNotification.Designer.cs">
       <DependentUpon>202009261959530_AddNotification.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202010142220276_AttendeeIdKeyChange.cs" />
+    <Compile Include="Migrations\202010142220276_AttendeeIdKeyChange.Designer.cs">
+      <DependentUpon>202010142220276_AttendeeIdKeyChange.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -371,6 +375,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202009261959530_AddNotification.resx">
       <DependentUpon>202009261959530_AddNotification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010142220276_AttendeeIdKeyChange.resx">
+      <DependentUpon>202010142220276_AttendeeIdKeyChange.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

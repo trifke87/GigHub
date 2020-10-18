@@ -23,7 +23,7 @@ namespace GigHub.Controllers.Api
         public IHttpActionResult Attend(AttendanceDto dto)
         {
             var userId = User.Identity.GetUserId();
-            var exist = _context.Attendance.Any(a => a.AtendeeId == userId
+            var exist = _context.Attendance.Any(a => a.AttendeeId == userId
             && a.GigId == dto.GigId);
 
             if (exist)
@@ -32,7 +32,7 @@ namespace GigHub.Controllers.Api
             var attendance = new Attendance()
             {
                 GigId = dto.GigId,
-                AtendeeId = userId
+                AttendeeId = userId
             };
 
             _context.Attendance.Add(attendance);

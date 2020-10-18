@@ -25,7 +25,7 @@ namespace GigHub.Models
         {
             modelBuilder.Entity<Attendance>()
                 .HasRequired(a => a.Gig)
-                .WithMany()
+                .WithMany(g => g.Attendances)
                 .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<ApplicationUser>()
@@ -40,7 +40,7 @@ namespace GigHub.Models
 
             modelBuilder.Entity<UserNotification>()
                 .HasRequired(u => u.User)
-                .WithMany()
+                .WithMany(n => n.UserNotifications)
                 .WillCascadeOnDelete(false);
 
             base.OnModelCreating(modelBuilder);

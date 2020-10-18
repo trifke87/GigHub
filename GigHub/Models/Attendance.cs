@@ -17,6 +17,6 @@ namespace GigHub.Models
         public int GigId { get; set; }
         [Key]
         [Column(Order = 2)]
-        public string AtendeeId { get; set; }
+        public string AttendeeId { get; set; }
     }
 }
