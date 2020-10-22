@@ -242,3 +242,5 @@ D:\Documents\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddIsCanceledToG
 D:\Documents\Projects\GigHub\GigHub\obj\Debug\GigHub.csprojAssemblyReference.cache
 D:\Documents\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddNotification.resources
 D:\Documents\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.AttendeeIdKeyChange.resources
+D:\Documents\Projects\GigHub\GigHub\bin\AutoMapper.dll
+D:\Documents\Projects\GigHub\GigHub\bin\AutoMapper.xml
