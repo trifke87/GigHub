@@ -168,6 +168,7 @@ D:\Documents\Projects\GigHub\GigHub\bin\roslyn\vbc.rsp
 D:\Documents\Projects\GigHub\GigHub\bin\roslyn\VBCSCompiler.exe
 D:\Documents\Projects\GigHub\GigHub\bin\roslyn\VBCSCompiler.exe.config
 D:\Documents\Projects\GigHub\GigHub\bin\Antlr3.Runtime.dll
+D:\Documents\Projects\GigHub\GigHub\bin\AutoMapper.dll
 D:\Documents\Projects\GigHub\GigHub\bin\EntityFramework.dll
 D:\Documents\Projects\GigHub\GigHub\bin\EntityFramework.SqlServer.dll
 D:\Documents\Projects\GigHub\GigHub\bin\Microsoft.AspNet.Identity.Core.dll
@@ -197,6 +198,7 @@ D:\Documents\Projects\GigHub\GigHub\bin\System.Web.WebPages.Deployment.dll
 D:\Documents\Projects\GigHub\GigHub\bin\System.Web.WebPages.dll
 D:\Documents\Projects\GigHub\GigHub\bin\System.Web.WebPages.Razor.dll
 D:\Documents\Projects\GigHub\GigHub\bin\WebGrease.dll
+D:\Documents\Projects\GigHub\GigHub\bin\AutoMapper.xml
 D:\Documents\Projects\GigHub\GigHub\bin\System.Net.Http.Formatting.xml
 D:\Documents\Projects\GigHub\GigHub\bin\System.Web.Http.xml
 D:\Documents\Projects\GigHub\GigHub\bin\System.Web.Http.WebHost.xml
@@ -233,14 +235,11 @@ D:\Documents\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddNameToApplica
 D:\Documents\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddAttendance.resources
 D:\Documents\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddAttendance1.resources
 D:\Documents\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.followee.resources
+D:\Documents\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddIsCanceledToGig.resources
+D:\Documents\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddNotification.resources
+D:\Documents\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.AttendeeIdKeyChange.resources
 D:\Documents\Projects\GigHub\GigHub\obj\Debug\GigHub.csproj.GenerateResource.cache
 D:\Documents\Projects\GigHub\GigHub\obj\Debug\GigHub.csproj.CoreCompileInputs.cache
 D:\Documents\Projects\GigHub\GigHub\obj\Debug\GigHub.csproj.CopyComplete
 D:\Documents\Projects\GigHub\GigHub\obj\Debug\GigHub.dll
 D:\Documents\Projects\GigHub\GigHub\obj\Debug\GigHub.pdb
-D:\Documents\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddIsCanceledToGig.resources
-D:\Documents\Projects\GigHub\GigHub\obj\Debug\GigHub.csprojAssemblyReference.cache
-D:\Documents\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddNotification.resources
-D:\Documents\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.AttendeeIdKeyChange.resources
-D:\Documents\Projects\GigHub\GigHub\bin\AutoMapper.dll
-D:\Documents\Projects\GigHub\GigHub\bin\AutoMapper.xml
