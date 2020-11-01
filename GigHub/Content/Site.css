@@ -41,6 +41,11 @@ span.field-validation-error {
     border-color: #ff4342;
 }
 
+.popover{
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
 .navbar-inverse .navbar-nav > li > a {
     color: #fff;
  }
@@ -172,7 +177,11 @@ h6,
     display:block;
 }
 
-ul.notifications{
+.popover-notifications {
+    padding: 0px;
+}
+
+ul.notifications {
     list-style: none;
     padding-left: 0;
 }
@@ -184,4 +193,8 @@ ul.notifications > li{
 
 ul.notifications > li:last-child{
     border-bottom: none;
+}
+
+ul.notifications .highlight{
+    font-weight: bold;
 }
