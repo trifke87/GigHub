@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using GigHub.Dtos;
 using GigHub.Models;
+using Microsoft.Ajax.Utilities;
 using Microsoft.AspNet.Identity;
 using System;
 using System.Collections.Generic;
@@ -31,6 +32,21 @@ namespace GigHub.Controllers.Api
                 .ToList();
 
             return notification.Select(Mapper.Map<Notification, NotificationDto>);
+        }
+
+        [HttpPost]
+        public IHttpActionResult MarkAsRead()
+        {
+            var userId = User.Identity.GetUserId();
+
+            var notification = _context.UserNotifications
+                .Where(un => un.UserId == userId && !un.IsRead);
+
+            notification.ForEach(n => n.Read());
+
+            _context.SaveChanges();
+
+            return Ok();
         }
     }
 }
