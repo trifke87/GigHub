@@ -244,3 +244,15 @@ D:\Documents\Projects\GigHub\GigHub\obj\Debug\GigHub.csproj.CoreCompileInputs.ca
 D:\Documents\Projects\GigHub\GigHub\obj\Debug\GigHub.csproj.CopyComplete
 D:\Documents\Projects\GigHub\GigHub\obj\Debug\GigHub.dll
 D:\Documents\Projects\GigHub\GigHub\obj\Debug\GigHub.pdb
+D:\Documents\Projects\GigHub\GigHub\bin\Castle.Core.dll
+D:\Documents\Projects\GigHub\GigHub\bin\Ninject.dll
+D:\Documents\Projects\GigHub\GigHub\bin\Ninject.Extensions.Conventions.dll
+D:\Documents\Projects\GigHub\GigHub\bin\Ninject.Web.Common.dll
+D:\Documents\Projects\GigHub\GigHub\bin\Ninject.Web.Mvc.dll
+D:\Documents\Projects\GigHub\GigHub\bin\Ninject.Web.WebApi.dll
+D:\Documents\Projects\GigHub\GigHub\bin\WebActivatorEx.dll
+D:\Documents\Projects\GigHub\GigHub\bin\Ninject.xml
+D:\Documents\Projects\GigHub\GigHub\bin\Ninject.Extensions.Conventions.xml
+D:\Documents\Projects\GigHub\GigHub\bin\Ninject.Web.Common.xml
+D:\Documents\Projects\GigHub\GigHub\bin\Ninject.Web.Mvc.xml
+D:\Documents\Projects\GigHub\GigHub\bin\Ninject.Web.WebApi.xml

@@ -1,0 +1,16 @@
+﻿using GigHub.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace GigHub.Repositories
+{
+    public interface IAttendanceRepository
+    {
+        Attendance GetAttendance(int gigId, string userId);
+
+        IEnumerable<Attendance> GetFutureAttendances(string userId);
+    }
+}
