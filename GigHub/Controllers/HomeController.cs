@@ -7,7 +7,7 @@ using System.Web;
 using System.Web.Mvc;
 using GigHub.Core.ViewModels;
 using Microsoft.AspNet.Identity;
-using GigHub.Repositories;
+using GigHub.Persistence.Repositories;
 using GigHub.Persistence;
 
 namespace GigHub.Controllers

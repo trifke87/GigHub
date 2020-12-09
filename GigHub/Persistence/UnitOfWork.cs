@@ -1,6 +1,7 @@
 ﻿using GigHub.Core.Models;
 using GigHub.Core;
-using GigHub.Repositories;
+using GigHub.Persistence.Repositories;
+using GigHub.Core.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;

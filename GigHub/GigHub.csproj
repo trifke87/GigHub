@@ -222,55 +222,55 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201911132222437_InitialModel.cs" />
-    <Compile Include="Migrations\201911132222437_InitialModel.Designer.cs">
+    <Compile Include="Persistence\Migrations\201911132222437_InitialModel.cs" />
+    <Compile Include="Persistence\Migrations\201911132222437_InitialModel.Designer.cs">
       <DependentUpon>201911132222437_InitialModel.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201911132253067_CreateGigTable.cs" />
-    <Compile Include="Migrations\201911132253067_CreateGigTable.Designer.cs">
+    <Compile Include="Persistence\Migrations\201911132253067_CreateGigTable.cs" />
+    <Compile Include="Persistence\Migrations\201911132253067_CreateGigTable.Designer.cs">
       <DependentUpon>201911132253067_CreateGigTable.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201911132310505_OverrideMigrationForGigsAndGenres.cs" />
-    <Compile Include="Migrations\201911132310505_OverrideMigrationForGigsAndGenres.Designer.cs">
+    <Compile Include="Persistence\Migrations\201911132310505_OverrideMigrationForGigsAndGenres.cs" />
+    <Compile Include="Persistence\Migrations\201911132310505_OverrideMigrationForGigsAndGenres.Designer.cs">
       <DependentUpon>201911132310505_OverrideMigrationForGigsAndGenres.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201911132315524_PopulateGenresTable.cs" />
-    <Compile Include="Migrations\201911132315524_PopulateGenresTable.Designer.cs">
+    <Compile Include="Persistence\Migrations\201911132315524_PopulateGenresTable.cs" />
+    <Compile Include="Persistence\Migrations\201911132315524_PopulateGenresTable.Designer.cs">
       <DependentUpon>201911132315524_PopulateGenresTable.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201911172317538_AddForeignKeyPropertiesToGig.cs" />
-    <Compile Include="Migrations\201911172317538_AddForeignKeyPropertiesToGig.Designer.cs">
+    <Compile Include="Persistence\Migrations\201911172317538_AddForeignKeyPropertiesToGig.cs" />
+    <Compile Include="Persistence\Migrations\201911172317538_AddForeignKeyPropertiesToGig.Designer.cs">
       <DependentUpon>201911172317538_AddForeignKeyPropertiesToGig.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201911302355100_AddNameToApplicationUser.cs" />
-    <Compile Include="Migrations\201911302355100_AddNameToApplicationUser.Designer.cs">
+    <Compile Include="Persistence\Migrations\201911302355100_AddNameToApplicationUser.cs" />
+    <Compile Include="Persistence\Migrations\201911302355100_AddNameToApplicationUser.Designer.cs">
       <DependentUpon>201911302355100_AddNameToApplicationUser.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202005272139351_AddAttendance.cs" />
-    <Compile Include="Migrations\202005272139351_AddAttendance.Designer.cs">
+    <Compile Include="Persistence\Migrations\202005272139351_AddAttendance.cs" />
+    <Compile Include="Persistence\Migrations\202005272139351_AddAttendance.Designer.cs">
       <DependentUpon>202005272139351_AddAttendance.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202005272212059_AddAttendance1.cs" />
-    <Compile Include="Migrations\202005272212059_AddAttendance1.Designer.cs">
+    <Compile Include="Persistence\Migrations\202005272212059_AddAttendance1.cs" />
+    <Compile Include="Persistence\Migrations\202005272212059_AddAttendance1.Designer.cs">
       <DependentUpon>202005272212059_AddAttendance1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202006222110054_followee.cs" />
-    <Compile Include="Migrations\202006222110054_followee.Designer.cs">
+    <Compile Include="Persistence\Migrations\202006222110054_followee.cs" />
+    <Compile Include="Persistence\Migrations\202006222110054_followee.Designer.cs">
       <DependentUpon>202006222110054_followee.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202009172136422_AddIsCanceledToGig.cs" />
-    <Compile Include="Migrations\202009172136422_AddIsCanceledToGig.Designer.cs">
+    <Compile Include="Persistence\Migrations\202009172136422_AddIsCanceledToGig.cs" />
+    <Compile Include="Persistence\Migrations\202009172136422_AddIsCanceledToGig.Designer.cs">
       <DependentUpon>202009172136422_AddIsCanceledToGig.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202009261959530_AddNotification.cs" />
-    <Compile Include="Migrations\202009261959530_AddNotification.Designer.cs">
+    <Compile Include="Persistence\Migrations\202009261959530_AddNotification.cs" />
+    <Compile Include="Persistence\Migrations\202009261959530_AddNotification.Designer.cs">
       <DependentUpon>202009261959530_AddNotification.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202010142220276_AttendeeIdKeyChange.cs" />
-    <Compile Include="Migrations\202010142220276_AttendeeIdKeyChange.Designer.cs">
+    <Compile Include="Persistence\Migrations\202010142220276_AttendeeIdKeyChange.cs" />
+    <Compile Include="Persistence\Migrations\202010142220276_AttendeeIdKeyChange.Designer.cs">
       <DependentUpon>202010142220276_AttendeeIdKeyChange.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Persistence\Migrations\Configuration.cs" />
     <Compile Include="Core\ViewModels\AccountViewModels.cs" />
     <Compile Include="Persistence\ApplicationDbContext.cs" />
     <Compile Include="Core\Models\Attendance.cs" />
@@ -285,14 +285,14 @@
     <Compile Include="Core\IUnitOfWork.cs" />
     <Compile Include="Persistence\UnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repositories\AttendanceRepository.cs" />
-    <Compile Include="Repositories\FollowingRepository.cs" />
-    <Compile Include="Repositories\GenreRepository.cs" />
-    <Compile Include="Repositories\GigRepository.cs" />
-    <Compile Include="Repositories\IAttendanceRepository.cs" />
-    <Compile Include="Repositories\IFollowingRepository.cs" />
-    <Compile Include="Repositories\IGenreRepository.cs" />
-    <Compile Include="Repositories\IGigRepository.cs" />
+    <Compile Include="Persistence\Repositories\AttendanceRepository.cs" />
+    <Compile Include="Persistence\Repositories\FollowingRepository.cs" />
+    <Compile Include="Persistence\Repositories\GenreRepository.cs" />
+    <Compile Include="Persistence\Repositories\GigRepository.cs" />
+    <Compile Include="Core\Repositories\IAttendanceRepository.cs" />
+    <Compile Include="Core\Repositories\IFollowingRepository.cs" />
+    <Compile Include="Core\Repositories\IGenreRepository.cs" />
+    <Compile Include="Core\Repositories\IGigRepository.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Core\ViewModels\ExternalLoginConfirmationViewModel.cs" />
     <Compile Include="Core\ViewModels\ExternalLoginListViewModel.cs" />
@@ -495,40 +495,40 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201911132222437_InitialModel.resx">
+    <EmbeddedResource Include="Persistence\Migrations\201911132222437_InitialModel.resx">
       <DependentUpon>201911132222437_InitialModel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201911132253067_CreateGigTable.resx">
+    <EmbeddedResource Include="Persistence\Migrations\201911132253067_CreateGigTable.resx">
       <DependentUpon>201911132253067_CreateGigTable.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201911132310505_OverrideMigrationForGigsAndGenres.resx">
+    <EmbeddedResource Include="Persistence\Migrations\201911132310505_OverrideMigrationForGigsAndGenres.resx">
       <DependentUpon>201911132310505_OverrideMigrationForGigsAndGenres.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201911132315524_PopulateGenresTable.resx">
+    <EmbeddedResource Include="Persistence\Migrations\201911132315524_PopulateGenresTable.resx">
       <DependentUpon>201911132315524_PopulateGenresTable.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201911172317538_AddForeignKeyPropertiesToGig.resx">
+    <EmbeddedResource Include="Persistence\Migrations\201911172317538_AddForeignKeyPropertiesToGig.resx">
       <DependentUpon>201911172317538_AddForeignKeyPropertiesToGig.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201911302355100_AddNameToApplicationUser.resx">
+    <EmbeddedResource Include="Persistence\Migrations\201911302355100_AddNameToApplicationUser.resx">
       <DependentUpon>201911302355100_AddNameToApplicationUser.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202005272139351_AddAttendance.resx">
+    <EmbeddedResource Include="Persistence\Migrations\202005272139351_AddAttendance.resx">
       <DependentUpon>202005272139351_AddAttendance.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202005272212059_AddAttendance1.resx">
+    <EmbeddedResource Include="Persistence\Migrations\202005272212059_AddAttendance1.resx">
       <DependentUpon>202005272212059_AddAttendance1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202006222110054_followee.resx">
+    <EmbeddedResource Include="Persistence\Migrations\202006222110054_followee.resx">
       <DependentUpon>202006222110054_followee.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202009172136422_AddIsCanceledToGig.resx">
+    <EmbeddedResource Include="Persistence\Migrations\202009172136422_AddIsCanceledToGig.resx">
       <DependentUpon>202009172136422_AddIsCanceledToGig.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202009261959530_AddNotification.resx">
+    <EmbeddedResource Include="Persistence\Migrations\202009261959530_AddNotification.resx">
       <DependentUpon>202009261959530_AddNotification.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202010142220276_AttendeeIdKeyChange.resx">
+    <EmbeddedResource Include="Persistence\Migrations\202010142220276_AttendeeIdKeyChange.resx">
       <DependentUpon>202010142220276_AttendeeIdKeyChange.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>

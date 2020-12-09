@@ -5,10 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GigHub.Repositories
+namespace GigHub.Core.Repositories
 {
-    public interface IFollowingRepository
+    public interface IGenreRepository
     {
-        Following GetFollowing(string ArtistId, string userId);
+        IEnumerable<Genre> GetGenres();
     }
 }
