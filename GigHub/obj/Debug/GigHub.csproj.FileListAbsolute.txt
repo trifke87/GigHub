@@ -226,7 +226,6 @@ D:\Documents\Projects\GigHub\GigHub\bin\Microsoft.Owin.Security.Twitter.xml
 D:\Documents\Projects\GigHub\GigHub\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 D:\Documents\Projects\GigHub\GigHub\bin\Microsoft.Owin.Security.OAuth.xml
 D:\Documents\Projects\GigHub\GigHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\Documents\Projects\GigHub\GigHub\obj\Debug\GigHub.csprojAssemblyReference.cache
 D:\Documents\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.InitialModel.resources
 D:\Documents\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.CreateGigTable.resources
 D:\Documents\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.OverrideMigrationForGigsAndGenres.resources
