@@ -1,4 +1,4 @@
-﻿using GigHub.Controllers;
+﻿using GigHub.Controllers.Api;
 using GigHub.Core;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
@@ -28,7 +28,7 @@ namespace GigHub.Tests.Controllers.Api
 
             controller = new GigsController(mockUoW.Object);
 
-            //controller.User = principal;
+            controller.User = principal;
         }
 
         [TestMethod]

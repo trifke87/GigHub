@@ -21,5 +21,15 @@ namespace GigHub.Persistence.Repositories
             return _context.Followings
                     .SingleOrDefault(f => f.FolloweeId == ArtistId && f.FollowerId == userId);
         }
+
+        public void Add(Following following)
+        {
+            _context.Followings.Add(following);
+        }
+
+        public void Remove(Following following)
+        {
+            _context.Followings.Remove(following);
+        }
     }
 }

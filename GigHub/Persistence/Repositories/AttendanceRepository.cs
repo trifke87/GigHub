@@ -28,5 +28,15 @@ namespace GigHub.Persistence.Repositories
                 .Where(a => a.AttendeeId == userId && a.Gig.DateTime > DateTime.Now)
                 .ToList();
         }
+
+        public void Add(Attendance attendance)
+        {
+            _context.Attendance.Add(attendance);
+        }
+
+        public void Remove(Attendance attendance)
+        {
+            _context.Attendance.Remove(attendance);
+        }
     }
 }
