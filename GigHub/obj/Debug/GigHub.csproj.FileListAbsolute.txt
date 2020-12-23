@@ -255,3 +255,4 @@ D:\Documents\Projects\GigHub\GigHub\bin\Ninject.Extensions.Conventions.xml
 D:\Documents\Projects\GigHub\GigHub\bin\Ninject.Web.Common.xml
 D:\Documents\Projects\GigHub\GigHub\bin\Ninject.Web.Mvc.xml
 D:\Documents\Projects\GigHub\GigHub\bin\Ninject.Web.WebApi.xml
+D:\Documents\Projects\GigHub\GigHub\obj\Debug\GigHub.csprojAssemblyReference.cache

@@ -1,10 +1,15 @@
-﻿using GigHub.Controllers.Api;
+﻿using FluentAssertions;
+using GigHub.Controllers.Api;
 using GigHub.Core;
+using GigHub.Core.Models;
+using GigHub.Core.Repositories;
+using GigHub.Tests.Extensions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using System;
 using System.Security.Claims;
 using System.Security.Principal;
+using System.Web.Http.Results;
 
 namespace GigHub.Tests.Controllers.Api
 {
@@ -12,28 +17,47 @@ namespace GigHub.Tests.Controllers.Api
     public class GigsControllerTests
     {
         private GigsController controller;
+        private Mock<IGigRepository> mockRepository;
+        private string userId;
         public GigsControllerTests()
         {
-            var identity = new GenericIdentity("user1@domain.com");
-            identity.AddClaim(
-                new Claim("http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name", "user1@domain.com")
-                );
-            identity.AddClaim(
-                new Claim("http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier", "1")
-                );
-
-            var principal = new GenericPrincipal(identity, null);
+            mockRepository = new Mock<IGigRepository>();
 
             var mockUoW = new Mock<IUnitOfWork>();
-
+            mockUoW.SetupGet(u => u.Gigs).Returns(mockRepository.Object);
+            userId = "1";
             controller = new GigsController(mockUoW.Object);
-
-            controller.User = principal;
+            controller.MockCurrentUser(userId, "user1@domain.com");
         }
 
         [TestMethod]
-        public void TestMethod1()
+        public void Cancel_NoGigWithGivenIdExist_ShouldReturnNotFound()
         {
+            var result = controller.Cancel(1);
+            result.Should().BeOfType<NotFoundResult>();
+        }
+
+        [TestMethod]
+        public void Cancel_GigIsCanceled_ShouldReturnNotFound()
+        {
+            var gig = new Gig();
+            gig.Cancel();
+
+            mockRepository.Setup(r => r.GetGigWithAttendees(1)).Returns(gig);
+
+            var result = controller.Cancel(1);
+            result.Should().BeOfType<NotFoundResult>();
+        }
+
+        [TestMethod]
+        public void Cancel_UserCancelingAnotherUsersGig_ShouldReturnUnauthorized()
+        {
+            var gig = new Gig { ArtistId = userId + "-"};
+
+            mockRepository.Setup(r => r.GetGigWithAttendees(1)).Returns(gig);
+
+            var result = controller.Cancel(1);
+            result.Should().BeOfType<UnauthorizedResult>();
         }
     }
 }
