@@ -19,7 +19,9 @@ namespace GigHub.Tests.Controllers.Api
         private GigsController controller;
         private Mock<IGigRepository> mockRepository;
         private string userId;
-        public GigsControllerTests()
+
+        [TestInitialize]
+        public void TestInitialize()
         {
             mockRepository = new Mock<IGigRepository>();
 
