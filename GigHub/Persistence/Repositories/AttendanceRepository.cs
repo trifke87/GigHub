@@ -10,33 +10,33 @@ namespace GigHub.Persistence.Repositories
 {
     public class AttendanceRepository : IAttendanceRepository
     {
-        private readonly ApplicationDbContext _context;
-        public AttendanceRepository(ApplicationDbContext context)
+        private readonly IApplicationDbContext _context;
+        public AttendanceRepository(IApplicationDbContext context)
         {
             _context = context;
         }
 
         public Attendance GetAttendance(int gigId, string userId)
         {
-            return _context.Attendance
+            return _context.Attendances
                     .SingleOrDefault(a => a.GigId == gigId && a.AttendeeId == userId);
         }
 
         public IEnumerable<Attendance> GetFutureAttendances(string userId)
         {
-            return _context.Attendance
+            return _context.Attendances
                 .Where(a => a.AttendeeId == userId && a.Gig.DateTime > DateTime.Now)
                 .ToList();
         }
 
         public void Add(Attendance attendance)
         {
-            _context.Attendance.Add(attendance);
+            _context.Attendances.Add(attendance);
         }
 
         public void Remove(Attendance attendance)
         {
-            _context.Attendance.Remove(attendance);
+            _context.Attendances.Remove(attendance);
         }
     }
 }

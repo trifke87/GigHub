@@ -76,3 +76,5 @@ D:\Documents\Projects\GigHub\GigHub.Tests\bin\Debug\Microsoft.Owin.Security.OAut
 D:\Documents\Projects\GigHub\GigHub.Tests\bin\Debug\Antlr3.Runtime.dll
 D:\Documents\Projects\GigHub\GigHub.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.xml
 D:\Documents\Projects\GigHub\GigHub.Tests\bin\Debug\Antlr3.Runtime.pdb
+D:\Documents\Projects\GigHub\GigHub.Tests\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\Projects\GigHub\GigHub.Tests\bin\Debug\EntityFramework.SqlServer.xml

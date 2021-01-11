@@ -11,7 +11,7 @@ namespace GigHub.Persistence
 {
     public class UnitOfWork : IUnitOfWork
     {
-        private readonly ApplicationDbContext _context;
+        private readonly IApplicationDbContext _context;
 
         public IGigRepository Gigs { get; private set; }
         public IAttendanceRepository Attendances { get; private set; }
@@ -19,7 +19,7 @@ namespace GigHub.Persistence
         public IFollowingRepository Followings { get; private set; }
         public INotificationRepository Notifications { get; private set; }
         public IUserNotificationRepository UserNotifications { get; private set; }
-        public UnitOfWork(ApplicationDbContext context)
+        public UnitOfWork(IApplicationDbContext context)
         {
             _context = context;
             Gigs = new GigRepository(_context);
