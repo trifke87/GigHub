@@ -11,7 +11,7 @@ namespace GigHub.Persistence
 {
     public class UnitOfWork : IUnitOfWork
     {
-        private readonly IApplicationDbContext _context;
+        private readonly ApplicationDbContext _context;
 
         public IGigRepository Gigs { get; private set; }
         public IAttendanceRepository Attendances { get; private set; }
@@ -19,15 +19,15 @@ namespace GigHub.Persistence
         public IFollowingRepository Followings { get; private set; }
         public INotificationRepository Notifications { get; private set; }
         public IUserNotificationRepository UserNotifications { get; private set; }
-        public UnitOfWork(IApplicationDbContext context)
+        public UnitOfWork(ApplicationDbContext context)
         {
             _context = context;
-            Gigs = new GigRepository(_context);
-            Attendances = new AttendanceRepository(_context);
-            Genres = new GenreRepository(_context);
-            Followings = new FollowingRepository(_context);
-            Notifications = new NotificationRepository(_context);
-            UserNotifications = new UserNotificationRepository(_context);
+            Gigs = new GigRepository(context);
+            Attendances = new AttendanceRepository(context);
+            Genres = new GenreRepository(context);
+            Followings = new FollowingRepository(context);
+            Notifications = new NotificationRepository(context);
+            UserNotifications = new UserNotificationRepository(context);
         }
 
         public void Completed()

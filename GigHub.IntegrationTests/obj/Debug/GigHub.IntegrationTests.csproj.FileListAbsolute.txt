@@ -83,7 +83,6 @@ D:\Documents\Projects\GigHub\GigHub.IntegrationTests\bin\Debug\Microsoft.AspNet.
 D:\Documents\Projects\GigHub\GigHub.IntegrationTests\bin\Debug\Microsoft.Owin.Security.xml
 D:\Documents\Projects\GigHub\GigHub.IntegrationTests\bin\Debug\System.Web.Http.xml
 D:\Documents\Projects\GigHub\GigHub.IntegrationTests\bin\Debug\AutoMapper.xml
-D:\Documents\Projects\GigHub\GigHub.IntegrationTests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 D:\Documents\Projects\GigHub\GigHub.IntegrationTests\bin\Debug\Ninject.Web.Common.xml
 D:\Documents\Projects\GigHub\GigHub.IntegrationTests\bin\Debug\Ninject.xml
 D:\Documents\Projects\GigHub\GigHub.IntegrationTests\bin\Debug\Ninject.Extensions.Conventions.xml
@@ -102,3 +101,13 @@ D:\Documents\Projects\GigHub\GigHub.IntegrationTests\bin\Debug\Microsoft.VisualS
 D:\Documents\Projects\GigHub\GigHub.IntegrationTests\obj\Debug\GigHub.IntegrationTests.csproj.CopyComplete
 D:\Documents\Projects\GigHub\GigHub.IntegrationTests\obj\Debug\GigHub.IntegrationTests.dll
 D:\Documents\Projects\GigHub\GigHub.IntegrationTests\obj\Debug\GigHub.IntegrationTests.pdb
+D:\Documents\Projects\GigHub\GigHub.IntegrationTests\bin\Debug\Moq.dll
+D:\Documents\Projects\GigHub\GigHub.IntegrationTests\bin\Debug\System.Web.Helpers.dll
+D:\Documents\Projects\GigHub\GigHub.IntegrationTests\bin\Debug\Moq.xml
+D:\Documents\Projects\GigHub\GigHub.IntegrationTests\bin\Debug\System.Web.Helpers.xml
+D:\Documents\Projects\GigHub\GigHub.IntegrationTests\bin\Debug\FluentAssertions.Core.dll
+D:\Documents\Projects\GigHub\GigHub.IntegrationTests\bin\Debug\FluentAssertions.dll
+D:\Documents\Projects\GigHub\GigHub.IntegrationTests\bin\Debug\FluentAssertions.pdb
+D:\Documents\Projects\GigHub\GigHub.IntegrationTests\bin\Debug\FluentAssertions.xml
+D:\Documents\Projects\GigHub\GigHub.IntegrationTests\bin\Debug\FluentAssertions.Core.pdb
+D:\Documents\Projects\GigHub\GigHub.IntegrationTests\bin\Debug\FluentAssertions.Core.xml
